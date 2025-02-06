@@ -1,0 +1,22 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment variables
+.env
+
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Build files
+dist/
+.next/
+out/

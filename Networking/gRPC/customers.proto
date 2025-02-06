@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+// Customer service definition 
+service CustomersService {
+  rpc GetUsers (Empty) returns (CustomersList) {}
+  rpc Get (CustomerRequestedId) returns (Customer) {}
+  rpc Insert (Customer) returns (Customer) {}
+  rpc Update(Customer) returns (Customer) {}
+  rpc Remove (CustomerRequestedId) returns (Customer){}
+}
+
+// messages Defn
+message Empty {}
+
+message Customer {
+  string id = 1;
+  string name = 2;
+  string location = 3; 
+}
+
+message CustomerRequestedId {
+  string id = 1;
+}
+
+message CustomersList {
+  repeated Customer customer = 1;
+}
