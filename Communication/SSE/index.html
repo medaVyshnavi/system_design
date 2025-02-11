@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSE</title>
+  </head>
+  <body>
+    <h1>Server sent events</h1>
+    <div id="sse-data"></div>
+  </body>
+  <script>
+    // sse implementation
+    const eventSource = new EventSource("/sse");
+    eventSource.onmessage = (e)=>{
+      console.log(e.data)
+      const sseData = document.getElementById('sse-data')
+      sseData.textContent = e.data;
+    }
+
+    eventSource.onerror = (err) => {
+      console.error('SSE error:', err);
+    };
+  </script>
+</html>
