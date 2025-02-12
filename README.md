@@ -13,3 +13,11 @@
   - Webhooks
   - Server sent events
   - WebSockets
+
+3. Testing
+  - Unit & Integration Testing
+  - E2E Testing and Automation Testing
+  - A/B Testing
+  - Performance Testing
+  - TDD 
+  - Security Testing
