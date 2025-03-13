@@ -21,3 +21,21 @@
   - Performance Testing
   - TDD 
   - Security Testing
+
+4. Performance
+  - Monitoring
+  - Tooling
+  - Network Optimization
+  - Rendering Patterns
+  - Build Optimization
+
+5. Database and caching
+  - Local Storage
+  - Session Storage
+  - Cookie Storage
+  - Indexed DB
+  - Normalization
+  - HTTP Caching
+  - Service Worker Caching
+  - API Caching
+  - State Managment
