@@ -39,3 +39,16 @@
   - Service Worker Caching
   - API Caching
   - State Managment
+
+6. Accessibility
+  - Keyboard Accessibility
+  - Screen Reader
+  - Focus Management
+  - Color contrast
+  - Accessibility Tools
+  - How to Fix Accessibility
+
+7. Logging and Monitoring
+  - Telemetry
+  - Alerting
+  - Fixing
