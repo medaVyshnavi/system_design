@@ -52,3 +52,7 @@
   - Telemetry
   - Alerting
   - Fixing
+
+8. Offline Support
+  - Service workers
+  - Progressive web apps [PWA]
