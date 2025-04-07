@@ -10,6 +10,9 @@ Thumbs.db
 # Ignore environment variables
 .env
 
+# pdf files
+*.pdf
+
 # Node dependencies
 node_modules/
 npm-debug.log

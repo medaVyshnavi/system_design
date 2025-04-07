@@ -1,3 +1,4 @@
+// cache names
 const CACHE_KEY = "ServiceWorkers/v2";
 
 // add all the files to the cache
@@ -59,3 +60,13 @@ self.addEventListener("fetch", (e) => {
     })
   )
 })
+
+// self.addEventListener("fetch", (e) => {
+//   e.respondWith(
+//     caches.match(e.request)
+//       .then(response => {
+//         return response || fetch(e.request)
+//       })
+//     )
+// }
+// )

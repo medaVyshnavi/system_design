@@ -1,6 +1,6 @@
 ## System Design Concepts
 
-# Concepts
+# Modules
 1. Networking
   - Communication Protocols
   - REST 
@@ -56,3 +56,9 @@
 8. Offline Support
   - Service workers
   - Progressive web apps [PWA]
+
+9. Security
+  - XSS (Cross site scripting attack)
+  - Iframe protection
+  -
+  
