@@ -60,5 +60,18 @@
 9. Security
   - XSS (Cross site scripting attack)
   - Iframe protection
-  -
+  - Security headers
+  - Client side security
+  - Secure communication (HTTPs)
+  - Dependency Security
+  - Compliance Security
+  - Input Validation and sanitization
+  - Server side request forgery
+  - Server side Js Injection
+  - Feature Policy
+  - Subresource Integrity
+  - Cross origin Resource sharing  (CORS)
+  - Cross site resource forgery (CSRF)
+
+
   
