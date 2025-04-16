@@ -73,5 +73,7 @@
   - Cross origin Resource sharing  (CORS)
   - Cross site resource forgery (CSRF)
 
+10. High Level Design
+  - Photo sharing app
 
-  
+11. Low level Design
